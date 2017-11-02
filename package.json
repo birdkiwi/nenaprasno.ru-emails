@@ -1,0 +1,15 @@
+{
+  "name": "nenaprasno.ru-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "heml build -o build/index.html email.heml",
+    "develop": "heml develop email.heml --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "heml": "^1.0.2-0"
+  }
+}

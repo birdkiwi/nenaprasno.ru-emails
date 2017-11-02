@@ -1,0 +1,127 @@
+<heml>
+<head>
+    <subject>Напоминание об осмотре</subject>
+    <style>
+        body {
+            background: #f0f0f0;
+            font-size: 14px;
+            font-family: Tahoma, Arial, sans-serif;
+            color: #454545;
+        }
+
+        container {
+            max-width: 500px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background: #fefefe;
+        }
+
+        block.vertical-padding {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        block.text-block {
+            padding: 0 20px;
+        }
+
+        block.examination {
+            padding: 0;
+            margin-bottom: 4px;
+        }
+
+        block.examination a {
+            display: block;
+            color: #454545;
+            padding: 8px 16px;
+            border-radius: 4px;
+            background-color: #d6e8f0;
+        }
+
+        block.solution {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            background-color: #fefefe;
+            border: solid 2px #d6e8f0;
+            padding: 20px 16px;
+        }
+
+        block.solution h4 {
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        block.solution p {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        block.solution p:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: #569fc3;
+            text-decoration: none;
+        }
+
+        p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <container>
+        <img src="images/header.jpg" alt="">
+
+        <block class="vertical-padding">
+            <block class="text-block">
+                <h3 style="color: #222222; margin-top: 0; margin-bottom: 4px;">
+                    Добрый день, Николай
+                </h3>
+                <p style="margin-top: 0; margin-bottom: 10px;">
+                    Вы попросили напомнить вам о необходимых обследованиях:
+                </p>
+
+                <block class="examination">
+                    <a href="#">Самоосмотр кожи</a>
+                </block>
+
+                <block class="examination">
+                    <a href="#">Колоноскопия под общей анастезией, раз в 2 года</a>
+                </block>
+            </block>
+
+            <block class="text-block">
+                <block class="solution">
+                    <h4 style="color: #EB7260;">
+                        Вы еще не посетили врача
+                    </h4>
+                    <p>
+                        Запишитесь к специалисту в удобную вам клинику прямо сейчас! Это поможет эффективно предотвратить рак или выявить его на очень ранней стадии. Список рекомендованных Фондом профилактики рака клиник можно найти у себя в личном кабинете
+                    </p>
+
+                    <h4 style="color: #35AE95;">
+                        Вы уже были у специалиста
+                    </h4>
+                    <p>
+                        Пожалуйста, сделайте отметку об этом в вашем <a href="#">персональном календаре обследований</a>, чтобы мы напомнили вам о следующем обследовании своевременно.
+                    </p>
+                </block>
+            </block>
+
+            <block class="text-block">
+                <p>
+                    Вы прошли тест screen не напрасно! Берегите себя и <a href="#">расскажите</a> о нем своим друзьям.
+                </p>
+
+                <p style="margin-bottom: 0">
+                    Присоединяйтесь к проектам Фонда профилактики рака – нам нужна ваша <a href="#">поддержка</a>!
+                </p>
+            </block>
+        </block>
+    </container>
+</body>
+</heml>
